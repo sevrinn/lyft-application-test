@@ -1,0 +1,21 @@
+{
+  "name": "lyft-application-test",
+  "version": "1.0.0",
+  "description": "A sample application for a my Lyft application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevrinn/lyft-application-test.git"
+  },
+  "keywords": [],
+  "author": "Sevrinn Welker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sevrinn/lyft-application-test/issues"
+  },
+  "homepage": "https://github.com/sevrinn/lyft-application-test#readme"
+}
