@@ -5,5 +5,3 @@ const strCutter = (str) => {
   }
   return {return_string: returnStr};
 };
-
-export default strCutter;

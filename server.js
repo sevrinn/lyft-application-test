@@ -1,21 +1,15 @@
-import strCutter from './strCutter';
+const strCutter = require('./strCutter')
 const express = require('express');
 const path = require("path");
+
 const app = express();
 const port = 8000;
-
-
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}`);
 });
-
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/index.html"));
-});
-
 
 app.post("/test", (req, res) => {
   const {string_to_cut} = req.body;
